@@ -10,7 +10,7 @@ install-deps-dev: ## install dependencies for development
 
 .PHONY: build
 build: ## build applications
-	hugo build
+	hugo --minify
 
 .PHONY: ci-test
 ci-test: install-deps-dev build ## run CI test
