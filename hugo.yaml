@@ -1,6 +1,10 @@
 baseURL: "https://examplesite.com/"
 title: ExampleSite
-paginate: 5
+# https://discourse.gohugo.io/t/pagination-deprecated-error/51571/3
+pagination:
+  disableAliases: false
+  pagerSize: 10
+  path: page
 theme: PaperMod
 
 enableRobotsTXT: true
