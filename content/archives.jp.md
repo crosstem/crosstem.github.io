@@ -1,6 +1,5 @@
 ---
-title: "Archive"
+title: "アーカイブ"
 layout: "archives"
-# url: "/l2/archives"
 summary: "archives"
 ---
