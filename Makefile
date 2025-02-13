@@ -1,3 +1,5 @@
+BASE_URL ?= https://example.com
+
 .PHONY: help
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
@@ -10,7 +12,7 @@ install-deps-dev: ## install dependencies for development
 
 .PHONY: build
 build: ## build applications
-	hugo --minify
+	hugo --minify --buildDrafts --gc --baseURL $(BASE_URL)
 
 .PHONY: ci-test
 ci-test: install-deps-dev build ## run CI test
