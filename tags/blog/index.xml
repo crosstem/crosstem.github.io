@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>CROSSTEM</title>
-    <link>https://crosstem.github.io/</link>
-    <description>Recent content on CROSSTEM</description>
+    <title>Blog on CROSSTEM</title>
+    <link>https://crosstem.github.io/tags/blog/</link>
+    <description>Recent content in Blog on CROSSTEM</description>
     <image>
       <title>CROSSTEM</title>
       <url>https://crosstem.github.io/images/papermod-cover.png</url>
@@ -13,27 +13,13 @@
     <language>en</language>
     <copyright>Copyright 2025 CROSSTEM Inc.</copyright>
     <lastBuildDate>Fri, 14 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://crosstem.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://crosstem.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Just a placeholder</title>
       <link>https://crosstem.github.io/posts/20250214_placeholder/</link>
       <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://crosstem.github.io/posts/20250214_placeholder/</guid>
       <description>Just a placeholder</description>
-    </item>
-    <item>
-      <title>Crosstem Inc.</title>
-      <link>https://crosstem.github.io/company/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crosstem.github.io/company/</guid>
-      <description>company</description>
-    </item>
-    <item>
-      <title>Our Services</title>
-      <link>https://crosstem.github.io/services/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crosstem.github.io/services/</guid>
-      <description>services</description>
     </item>
   </channel>
 </rss>
