@@ -21,35 +21,38 @@ export default function HeroSection({ onLearnMore }: HeroSectionProps) {
 
       {/* コンテンツ */}
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl sm:text-6xl font-bold mb-6 leading-tight">
+        <h1 className="text-4xl sm:text-6xl font-bold mb-6 leading-tight drop-shadow-[0_6px_10px_rgba(0,0,0,0.6)]">
           {t('hero.title')}
         </h1>
-        <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto opacity-90">
+        <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto opacity-95">
           {t('hero.subtitle')}
         </p>
         <button
           onClick={onLearnMore}
-          className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors duration-300 shadow-lg hover:shadow-xl"
+          className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors duration-300 shadow-lg hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300/60"
+          aria-label="Learn more about Crosstem"
         >
           {t('hero.cta')}
         </button>
       </div>
 
       {/* スクロールインジケーター */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
-        <svg
-          className="w-6 h-6"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M19 14l-7 7m0 0l-7-7m7 7V3"
-          />
-        </svg>
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="w-10 h-10 rounded-full bg-black/30 backdrop-blur-sm flex items-center justify-center">
+          <svg
+            className="w-6 h-6 text-white"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M19 14l-7 7m0 0l-7-7m7 7V3"
+            />
+          </svg>
+        </div>
       </div>
     </section>
   );

@@ -19,12 +19,14 @@ export default function Header({ onSectionClick }: HeaderProps) {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-md border-b border-gray-200 z-50">
+    <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-md border-b border-gray-300 shadow-sm z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* ロゴ */}
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold text-gray-900">Crosstem</h1>
+            {/* Use slightly darker blue for logo/title so it remains readable
+                when header overlays a dark hero image (white/transparent bg used). */}
+            <h1 className="text-xl font-bold text-blue-700">Crosstem</h1>
           </div>
 
           {/* デスクトップナビゲーション */}
@@ -84,7 +86,8 @@ export default function Header({ onSectionClick }: HeaderProps) {
             {/* ハンバーガーメニュー（モバイル） */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="md:hidden p-2 text-gray-700"
+              className="md:hidden p-2 text-blue-700"
+              aria-label="Toggle menu"
             >
               <svg
                 className="w-6 h-6"
