@@ -9,7 +9,7 @@ export default function HeroSection({ onLearnMore }: HeroSectionProps) {
 
   return (
     <section
-      className="relative flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-900 via-blue-800 to-blue-600"
+      className="relative flex items-center justify-center overflow-hidden"
       style={{ minHeight: 'calc(100vh - 64px)' }}
     >
       {/* 背景画像 - Unsplashの先進的企業イメージ */}
@@ -17,9 +17,9 @@ export default function HeroSection({ onLearnMore }: HeroSectionProps) {
         <img
           src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Technology background"
-          className="w-full h-full object-cover opacity-30"
+          className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/70 via-blue-800/60 to-blue-600/50"></div>
+        <div className="absolute inset-0 bg-black/40"></div>
       </div>
 
       {/* コンテンツ */}
