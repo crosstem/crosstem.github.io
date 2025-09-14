@@ -11,11 +11,11 @@ install-deps-dev: ## install dependencies for development
 
 .PHONY: format-check
 format-check: ## format check
-	@echo "Yet to implement"
+	pnpm format:check
 
 .PHONY: format
 format: ## format code
-	@echo "Yet to implement"
+	pnpm format
 
 .PHONY: lint
 lint: ## lint

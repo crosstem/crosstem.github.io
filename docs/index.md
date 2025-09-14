@@ -45,3 +45,8 @@ echo '@import "tailwindcss";' >> src/index.css
 
 - [react-i18next documentation](https://react.i18next.com/getting-started)
 - [i18next-browser-languageDetector](https://github.com/i18next/i18next-browser-languageDetector)
+
+## Introduce formatter
+
+- [Prettier / Install](https://prettier.io/docs/install)
+- [Prettier / ESLint Integrations](https://prettier.io/docs/related-projects#eslint-integrations)
