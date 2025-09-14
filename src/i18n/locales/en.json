@@ -4,24 +4,81 @@
     "about": "About",
     "news": "News",
     "business": "Business",
-    "recruit": "Recruit"
+    "recruit": "Recruit",
+    "principles": "Principles"
   },
   "hero": {
-    "title": "Creating the Future with Technology",
-    "subtitle": "We make the world a better place through innovative solutions",
+    "title": "End-to-End DX Support: From Strategy to Implementation",
+    "subtitle": "We enable sustainable growth and enhanced competitiveness through AI, IoT, and cloud-based digital transformation",
     "cta": "Learn More"
   },
   "about": {
     "title": "About Us",
-    "description": "We provide innovative solutions that leverage cutting-edge technology to drive our clients' business success."
+    "description": "CROSSTEM Inc. provides professional services that support everything from strategy to implementation and organizational development.",
+    "companyName": "CROSSTEM Inc.",
+    "established": "February 11, 2025",
+    "location": "Minami-ku, Kyoto, Japan",
+    "businessContent": "Strategic Consulting, Software Development, Technical Advisory, Human Resources & Organizational Development"
+  },
+  "principles": {
+    "title": "Leadership Principles",
+    "subtitle": "Our Guiding Principles",
+    "customerObsession": {
+      "title": "Customer Obsession",
+      "description": "Always think with customers as the subject and prioritize customer satisfaction above all"
+    },
+    "ownership": {
+      "title": "Ownership",
+      "description": "You are the owner. Take responsibility and see your work through to completion"
+    },
+    "simplify": {
+      "title": "Simplify, Standardize, Scale",
+      "description": "Keep it simple, standardize, and scale"
+    }
   },
   "news": {
     "title": "News",
     "readMore": "Read More"
   },
   "business": {
-    "title": "Business",
-    "description": "Discover our business solutions with proven track records across various industries."
+    "title": "Business Services",
+    "description": "We provide professional services that support everything from strategy to implementation and organizational development.",
+    "strategy": {
+      "title": "Strategic Consulting",
+      "description": "We support everything from identifying business challenges to formulating business strategies leveraging technology and creating new businesses.",
+      "items": [
+        "Business Development Support",
+        "DX Strategy Development",
+        "Technology Assessment"
+      ]
+    },
+    "development": {
+      "title": "Software Development",
+      "description": "We provide high-quality software development from idea realization to scalable system construction and continuous improvement.",
+      "items": [
+        "Prototype Development",
+        "Application Development",
+        "Infrastructure & DevOps"
+      ]
+    },
+    "advisory": {
+      "title": "Technical Advisory",
+      "description": "Experts with specialized knowledge provide hands-on support for specific technical challenges and projects.",
+      "items": [
+        "Technical Consulting",
+        "Project Support",
+        "Specialized Domain Advice"
+      ]
+    },
+    "organization": {
+      "title": "Human Resources & Organizational Development",
+      "description": "We support companies' technological capability improvement and the construction of autonomous development organizations.",
+      "items": [
+        "AI Skilling",
+        "Development Team Training",
+        "Technical Seminars & Training"
+      ]
+    }
   },
   "recruit": {
     "title": "Careers",
@@ -29,7 +86,7 @@
     "cta": "View Careers"
   },
   "footer": {
-    "company": "Crosstem Inc.",
+    "company": "CROSSTEM Inc.",
     "rights": "All rights reserved."
   }
 }

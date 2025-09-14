@@ -15,74 +15,116 @@ export default function AboutSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* ミッション */}
-          <div className="text-center p-6 bg-gray-50 rounded-lg">
-            <div className="w-16 h-16 mx-auto mb-4 bg-blue-100 rounded-full flex items-center justify-center">
-              <svg
-                className="w-8 h-8 text-blue-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M13 10V3L4 14h7v7l9-11h-7z"
-                />
-              </svg>
+        {/* 会社概要 */}
+        <div className="bg-gray-50 rounded-lg p-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="text-center">
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">社名</h3>
+              <p className="text-gray-600">{t('about.companyName')}</p>
             </div>
-            <h3 className="text-xl font-semibold text-gray-900 mb-2">革新性</h3>
-            <p className="text-gray-600">
-              最新技術を活用した革新的なソリューションの提供
-            </p>
+            <div className="text-center">
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">設立</h3>
+              <p className="text-gray-600">{t('about.established')}</p>
+            </div>
+            <div className="text-center">
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">拠点</h3>
+              <p className="text-gray-600">{t('about.location')}</p>
+            </div>
+            <div className="text-center">
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                事業内容
+              </h3>
+              <p className="text-gray-600 text-sm">
+                {t('about.businessContent')}
+              </p>
+            </div>
           </div>
+        </div>
 
-          {/* ビジョン */}
-          <div className="text-center p-6 bg-gray-50 rounded-lg">
-            <div className="w-16 h-16 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center">
-              <svg
-                className="w-8 h-8 text-green-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-            </div>
-            <h3 className="text-xl font-semibold text-gray-900 mb-2">
-              グローバル
+        {/* Leadership Principles */}
+        <div className="mb-12">
+          <div className="text-center mb-8">
+            <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+              {t('principles.title')}
             </h3>
-            <p className="text-gray-600">
-              世界規模でのソリューション展開と価値提供
-            </p>
+            <p className="text-lg text-gray-600">{t('principles.subtitle')}</p>
           </div>
 
-          {/* バリュー */}
-          <div className="text-center p-6 bg-gray-50 rounded-lg">
-            <div className="w-16 h-16 mx-auto mb-4 bg-purple-100 rounded-full flex items-center justify-center">
-              <svg
-                className="w-8 h-8 text-purple-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-                />
-              </svg>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Customer Obsession */}
+            <div className="text-center p-6 bg-blue-50 rounded-lg border border-blue-100">
+              <div className="w-16 h-16 mx-auto mb-4 bg-blue-600 rounded-full flex items-center justify-center">
+                <svg
+                  className="w-8 h-8 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                  />
+                </svg>
+              </div>
+              <h4 className="text-xl font-semibold text-gray-900 mb-3">
+                {t('principles.customerObsession.title')}
+              </h4>
+              <p className="text-gray-700">
+                {t('principles.customerObsession.description')}
+              </p>
             </div>
-            <h3 className="text-xl font-semibold text-gray-900 mb-2">協働</h3>
-            <p className="text-gray-600">お客様との密接な連携による価値創造</p>
+
+            {/* Ownership */}
+            <div className="text-center p-6 bg-green-50 rounded-lg border border-green-100">
+              <div className="w-16 h-16 mx-auto mb-4 bg-green-600 rounded-full flex items-center justify-center">
+                <svg
+                  className="w-8 h-8 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+              <h4 className="text-xl font-semibold text-gray-900 mb-3">
+                {t('principles.ownership.title')}
+              </h4>
+              <p className="text-gray-700">
+                {t('principles.ownership.description')}
+              </p>
+            </div>
+
+            {/* Simplify, Standardize, Scale */}
+            <div className="text-center p-6 bg-purple-50 rounded-lg border border-purple-100">
+              <div className="w-16 h-16 mx-auto mb-4 bg-purple-600 rounded-full flex items-center justify-center">
+                <svg
+                  className="w-8 h-8 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
+                  />
+                </svg>
+              </div>
+              <h4 className="text-xl font-semibold text-gray-900 mb-3">
+                {t('principles.simplify.title')}
+              </h4>
+              <p className="text-gray-700">
+                {t('principles.simplify.description')}
+              </p>
+            </div>
           </div>
         </div>
       </div>
