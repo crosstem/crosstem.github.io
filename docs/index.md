@@ -40,3 +40,8 @@ pnpm add -D tailwindcss @tailwindcss/vite
 # Import Tailwind CSS styles in your CSS
 echo '@import "tailwindcss";' >> src/index.css
 ```
+
+## Introduce internationalization framework
+
+- [react-i18next documentation](https://react.i18next.com/getting-started)
+- [i18next-browser-languageDetector](https://github.com/i18next/i18next-browser-languageDetector)
