@@ -26,8 +26,11 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  /* Use standard flow so sections, header and footer layout normally.
+     Previously this was display:flex with centered alignment which
+     caused the whole page to be vertically centered and broke
+     fixed header / full-height hero layouts. */
+  display: block;
   min-width: 320px;
   min-height: 100vh;
 }
