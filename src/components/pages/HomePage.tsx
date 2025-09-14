@@ -50,7 +50,8 @@ export default function HomePage() {
     <div className="min-h-screen bg-white">
       <Header onSectionClick={scrollToSection} />
 
-      <main>
+      {/* Add top padding to avoid content being hidden behind the fixed header */}
+      <main className="pt-16">
         <HeroSection onLearnMore={handleLearnMore} />
 
         <div ref={aboutRef}>

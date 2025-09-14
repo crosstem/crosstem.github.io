@@ -8,7 +8,10 @@ export default function HeroSection({ onLearnMore }: HeroSectionProps) {
   const { t } = useTranslation();
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section
+      className="relative flex items-center justify-center overflow-hidden"
+      style={{ minHeight: 'calc(100vh - 64px)' }}
+    >
       {/* 背景画像 - Unsplashの先進的企業イメージ */}
       <div className="absolute inset-0 z-0">
         <img
@@ -21,7 +24,7 @@ export default function HeroSection({ onLearnMore }: HeroSectionProps) {
 
       {/* コンテンツ */}
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl sm:text-6xl font-bold mb-6 leading-tight drop-shadow-[0_6px_10px_rgba(0,0,0,0.6)]">
+        <h1 className="text-3xl sm:text-6xl font-bold mb-6 leading-tight drop-shadow-[0_6px_10px_rgba(0,0,0,0.6)]">
           {t('hero.title')}
         </h1>
         <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto opacity-95">
