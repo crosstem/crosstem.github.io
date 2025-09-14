@@ -7,7 +7,7 @@ export default function NewsSection() {
     {
       date: '2025.09.15',
       category: 'プレスリリース',
-      title: '新サービス「クロスステムAI」をリリースしました',
+      title: '新サービス「クロステムAI」をリリースしました',
       id: 1,
     },
     {
