@@ -1,3 +1,35 @@
 {
-  "title": "Welcome"
+  "title": "Welcome",
+  "nav": {
+    "about": "About",
+    "news": "News",
+    "business": "Business",
+    "recruit": "Recruit"
+  },
+  "hero": {
+    "title": "Creating the Future with Technology",
+    "subtitle": "We make the world a better place through innovative solutions",
+    "cta": "Learn More"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We provide innovative solutions that leverage cutting-edge technology to drive our clients' business success."
+  },
+  "news": {
+    "title": "News",
+    "readMore": "Read More"
+  },
+  "business": {
+    "title": "Business",
+    "description": "Discover our business solutions with proven track records across various industries."
+  },
+  "recruit": {
+    "title": "Careers",
+    "description": "Join our team and help us create the future together.",
+    "cta": "View Careers"
+  },
+  "footer": {
+    "company": "Crosstem Inc.",
+    "rights": "All rights reserved."
+  }
 }
