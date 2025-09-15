@@ -18,7 +18,7 @@
     "companyName": "CROSSTEM Inc.",
     "established": "2025年2月11日",
     "location": "京都府京都市南区",
-    "businessContent": "戦略コンサルティング、ソフトウェア開発、技術アドバイザリー、人材・組織開発",
+    "businessContent": "テクニカルコンサルティング、ソフトウェア開発、技術アドバイザリー、人材・組織開発",
     "companyNameLabel": "社名",
     "establishedLabel": "設立",
     "locationLabel": "拠点",
@@ -29,15 +29,15 @@
     "subtitle": "私たちの行動指針",
     "customerObsession": {
       "title": "Customer Obsession",
-      "description": "常にお客様が主語で物事を考え、顧客満足度を最優先にする"
+      "description": "顧客を主語に考え、絶えず顧客の期待を超える"
     },
     "ownership": {
       "title": "Ownership",
-      "description": "自分がオーナー。仕事に責任を持ってやり遂げる"
+      "description": "自分の仕事に責任を持ち、結果にコミットする"
     },
     "simplify": {
-      "title": "Simplify, Standardize, Scale",
-      "description": "シンプルに、標準化して、スケールする"
+      "title": "Simplify & Scale",
+      "description": "複雑なことをシンプルにし、スケールさせる"
     }
   },
   "news": {
@@ -76,9 +76,13 @@
     "ctaDescription": "戦略立案から実装、組織開発まで、一気通貫でサポートいたします。まずはお気軽にご相談ください。",
     "ctaButton": "お問い合わせ",
     "strategy": {
-      "title": "戦略コンサルティング",
-      "description": "ビジネス課題の解明から、技術を活用した事業戦略の策定、新規事業の創出までを支援します。",
-      "items": ["事業開発支援", "DX戦略策定", "技術アセスメント"]
+      "title": "テクニカルコンサルティング",
+      "description": "ビジネス課題の解明から、技術を活用した事業戦略の策定、新規事業の社会実装まで、幅広いコンサルティングサービスを提供します。",
+      "items": [
+        "事業開発支援",
+        "DX戦略策定",
+        "技術アセスメント"
+      ]
     },
     "development": {
       "title": "ソフトウェア開発",
@@ -92,12 +96,20 @@
     "advisory": {
       "title": "技術アドバイザリー",
       "description": "特定の技術課題やプロジェクトに対して、専門的な知見を持つエキスパートが伴走支援します。",
-      "items": ["技術顧問", "プロジェクト支援", "専門領域アドバイス"]
+      "items": [
+        "技術顧問",
+        "プロジェクト支援",
+        "専門領域アドバイス"
+      ]
     },
     "organization": {
       "title": "人材・組織開発",
       "description": "企業の技術力向上と、自律的な開発組織の構築を支援します。",
-      "items": ["AIスキリング", "開発チーム育成", "技術セミナー・トレーニング"]
+      "items": [
+        "AIスキリング",
+        "開発チーム育成",
+        "技術セミナー・トレーニング"
+      ]
     }
   },
   "recruit": {
@@ -137,13 +149,13 @@
     },
     "values": {
       "customerObsession": {
-        "description": "常にお客様を第一に考え、最高の価値を提供"
+        "description": "顧客を主語に考え、絶えず顧客の期待を超える"
       },
       "ownership": {
-        "description": "自分がオーナーとして責任を持ってやり遂げる"
+        "description": "自分の仕事に責任を持ち、結果にコミットする"
       },
       "simplifyScale": {
-        "description": "シンプルに、標準化して、スケールする"
+        "description": "複雑なことをシンプルにし、スケールさせる"
       }
     }
   },

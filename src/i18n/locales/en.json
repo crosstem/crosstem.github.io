@@ -18,7 +18,7 @@
     "companyName": "CROSSTEM Inc.",
     "established": "February 11, 2025",
     "location": "Minami-ku, Kyoto, Japan",
-    "businessContent": "Strategic Consulting, Software Development, Technical Advisory, Human Resources & Organizational Development",
+    "businessContent": "Technical Consulting, Software Development, Technical Advisory, Human Resources & Organizational Development",
     "companyNameLabel": "Company Name",
     "establishedLabel": "Established",
     "locationLabel": "Location",
@@ -29,15 +29,15 @@
     "subtitle": "Our Guiding Principles",
     "customerObsession": {
       "title": "Customer Obsession",
-      "description": "Always think with customers as the subject and prioritize customer satisfaction above all"
+      "description": "Think with customers as the subject and constantly exceed customer expectations"
     },
     "ownership": {
       "title": "Ownership",
-      "description": "You are the owner. Take responsibility and see your work through to completion"
+      "description": "Take responsibility for your work and commit to results"
     },
     "simplify": {
-      "title": "Simplify, Standardize, Scale",
-      "description": "Keep it simple, standardize, and scale"
+      "title": "Simplify & Scale",
+      "description": "Simplify complex things and scale them"
     }
   },
   "news": {
@@ -76,8 +76,8 @@
     "ctaDescription": "From strategy planning to implementation and organizational development, we provide comprehensive support. Please feel free to contact us first.",
     "ctaButton": "Contact Us",
     "strategy": {
-      "title": "Strategic Consulting",
-      "description": "We support everything from identifying business challenges to formulating business strategies leveraging technology and creating new businesses.",
+      "title": "Technical Consulting",
+      "description": "We provide comprehensive consulting services from identifying business challenges to formulating business strategies leveraging technology and implementing new businesses in society.",
       "items": [
         "Business Development Support",
         "DX Strategy Development",
@@ -149,13 +149,13 @@
     },
     "values": {
       "customerObsession": {
-        "description": "Always prioritize customers and provide the highest value"
+        "description": "Think with customers as the subject and constantly exceed customer expectations"
       },
       "ownership": {
-        "description": "Take ownership and see things through to completion"
+        "description": "Take responsibility for your work and commit to results"
       },
       "simplifyScale": {
-        "description": "Simplify, standardize, and scale"
+        "description": "Simplify complex things and scale them"
       }
     }
   },
