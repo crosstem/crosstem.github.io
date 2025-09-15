@@ -18,7 +18,11 @@
     "companyName": "CROSSTEM Inc.",
     "established": "February 11, 2025",
     "location": "Minami-ku, Kyoto, Japan",
-    "businessContent": "Strategic Consulting, Software Development, Technical Advisory, Human Resources & Organizational Development"
+    "businessContent": "Strategic Consulting, Software Development, Technical Advisory, Human Resources & Organizational Development",
+    "companyNameLabel": "Company Name",
+    "establishedLabel": "Established",
+    "locationLabel": "Location",
+    "businessContentLabel": "Business"
   },
   "principles": {
     "title": "Leadership Principles",
@@ -38,11 +42,39 @@
   },
   "news": {
     "title": "News",
-    "readMore": "Read More"
+    "subtitle": "Latest Updates on Our Initiatives and Services",
+    "readMore": "Read More",
+    "ctaTitle": "Stay Updated with Our Latest News",
+    "ctaDescription": "We regularly share information about CROSSTEM's latest services and technology trends",
+    "ctaButton": "View All News",
+    "items": [
+      {
+        "date": "2025.02.11",
+        "category": "Press Release",
+        "title": "CROSSTEM Inc. Establishment Announcement",
+        "summary": "Established as a company providing professional services that support everything from strategy to implementation and organizational development"
+      },
+      {
+        "date": "2025.02.15",
+        "category": "Announcement",
+        "title": "AI Skilling Program Launch",
+        "summary": "Launched customized AI talent development programs for enterprises"
+      },
+      {
+        "date": "2025.02.20",
+        "category": "Service",
+        "title": "Technical Advisory Service Launch",
+        "summary": "Started technical strategy support and project accompaniment services by experienced CTOs"
+      }
+    ]
   },
   "business": {
     "title": "Business Services",
     "description": "We provide professional services that support everything from strategy to implementation and organizational development.",
+    "mainContentLabel": "Main Services:",
+    "ctaTitle": "Providing Solutions Tailored to Your Business Challenges",
+    "ctaDescription": "From strategy planning to implementation and organizational development, we provide comprehensive support. Please feel free to contact us first.",
+    "ctaButton": "Contact Us",
     "strategy": {
       "title": "Strategic Consulting",
       "description": "We support everything from identifying business challenges to formulating business strategies leveraging technology and creating new businesses.",
@@ -83,7 +115,49 @@
   "recruit": {
     "title": "Careers",
     "description": "Join our team and help us create the future together.",
-    "cta": "View Careers"
+    "cta": "View Careers",
+    "valuesTitle": "Our Values",
+    "positionsTitle": "Open Positions",
+    "detailsButton": "View Details →",
+    "ctaTitle": "Ready to Create the Future Together?",
+    "ctaDescription": "At CROSSTEM, we're looking for talented individuals who want to change the world through technology and strategy. Use your skills and passion to achieve customer success and personal growth.",
+    "entryButton": "Apply Now",
+    "casualInterviewButton": "Request Casual Interview",
+    "positions": {
+      "strategicConsultant": {
+        "title": "Strategic Consultant",
+        "department": "Consulting",
+        "description": "Support client business transformation from DX strategy planning to business development"
+      },
+      "softwareEngineer": {
+        "title": "Software Engineer",
+        "department": "Engineering",
+        "description": "Design and develop AI, IoT, and cloud applications"
+      },
+      "technicalAdvisor": {
+        "title": "Technical Advisor",
+        "department": "Advisory",
+        "description": "Provide customer support leveraging specialized knowledge in specific technical domains"
+      }
+    },
+    "locations": {
+      "kyotoRemote": "Kyoto/Remote"
+    },
+    "employmentTypes": {
+      "fullTime": "Full-time",
+      "contractor": "Contract"
+    },
+    "values": {
+      "customerObsession": {
+        "description": "Always prioritize customers and provide the highest value"
+      },
+      "ownership": {
+        "description": "Take ownership and see things through to completion"
+      },
+      "simplifyScale": {
+        "description": "Simplify, standardize, and scale"
+      }
+    }
   },
   "footer": {
     "company": "CROSSTEM Inc.",
