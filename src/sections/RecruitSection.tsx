@@ -142,12 +142,22 @@ export default function RecruitSection() {
           </h3>
           <p className="text-gray-600 mb-6">{t('recruit.ctaDescription')}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors shadow-lg hover:shadow-xl">
+            <a
+              href="https://forms.gle/NtmyGzpN9nzSUoCb6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-black hover:bg-gray-900 !text-white px-8 py-3 rounded-lg font-semibold transition-colors shadow-lg hover:shadow-xl"
+            >
               {t('recruit.entryButton')}
-            </button>
-            <button className="bg-gray-600 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors shadow-lg hover:shadow-xl">
+            </a>
+            <a
+              href="https://forms.gle/NtmyGzpN9nzSUoCb6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-black hover:bg-gray-900 !text-white px-8 py-3 rounded-lg font-semibold transition-colors shadow-lg hover:shadow-xl"
+            >
               {t('recruit.casualInterviewButton')}
-            </button>
+            </a>
           </div>
         </div>
       </div>

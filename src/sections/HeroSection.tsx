@@ -32,7 +32,7 @@ export default function HeroSection({ onLearnMore }: HeroSectionProps) {
         </p>
         <button
           onClick={onLearnMore}
-          className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors duration-300 shadow-lg hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300/60"
+          className="bg-black hover:bg-gray-900 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors duration-300 shadow-lg hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-gray-300/60"
           aria-label="Learn more about Crosstem"
         >
           {t('hero.cta')}

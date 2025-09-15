@@ -63,9 +63,14 @@ export default function NewsSection() {
               {t('news.ctaTitle')}
             </h3>
             <p className="text-gray-600 mb-6">{t('news.ctaDescription')}</p>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors shadow-lg hover:shadow-xl">
+            <a
+              href="https://forms.gle/NtmyGzpN9nzSUoCb6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-black hover:bg-gray-900 !text-white px-6 py-3 rounded-lg font-semibold transition-colors shadow-lg hover:shadow-xl"
+            >
               {t('news.ctaButton')}
-            </button>
+            </a>
           </div>
         </div>
       </div>
