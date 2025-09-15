@@ -7,7 +7,7 @@ export default function BusinessSection() {
     {
       title: t('business.strategy.title'),
       description: t('business.strategy.description'),
-      items: ['事業開発支援', 'DX戦略策定', '技術アセスメント'],
+      items: t('business.strategy.items', { returnObjects: true }) as string[],
       image:
         'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       id: 1,
@@ -16,11 +16,7 @@ export default function BusinessSection() {
     {
       title: t('business.development.title'),
       description: t('business.development.description'),
-      items: [
-        'プロトタイプ開発',
-        'アプリケーション開発',
-        'インフラ構築・DevOps',
-      ],
+      items: t('business.development.items', { returnObjects: true }) as string[],
       image:
         'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       id: 2,
@@ -29,7 +25,7 @@ export default function BusinessSection() {
     {
       title: t('business.advisory.title'),
       description: t('business.advisory.description'),
-      items: ['技術顧問', 'プロジェクト支援', '専門領域アドバイス'],
+      items: t('business.advisory.items', { returnObjects: true }) as string[],
       image:
         'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       id: 3,
@@ -38,7 +34,7 @@ export default function BusinessSection() {
     {
       title: t('business.organization.title'),
       description: t('business.organization.description'),
-      items: ['AIスキリング', '開発チーム育成', '技術セミナー・トレーニング'],
+      items: t('business.organization.items', { returnObjects: true }) as string[],
       image:
         'https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       id: 4,
@@ -96,7 +92,7 @@ export default function BusinessSection() {
                 </p>
                 <div className="space-y-2">
                   <h4 className="text-sm font-semibold text-gray-700 mb-2">
-                    主な提供内容:
+                    {t('business.mainContentLabel')}
                   </h4>
                   <ul className="text-sm text-gray-600 space-y-1">
                     {service.items.map((item, index) => (
@@ -115,14 +111,13 @@ export default function BusinessSection() {
         <div className="text-center mt-12">
           <div className="bg-white rounded-lg p-8 shadow-lg">
             <h3 className="text-xl font-semibold text-gray-900 mb-4">
-              お客様のビジネス課題に合わせたソリューションを提供
+              {t('business.ctaTitle')}
             </h3>
             <p className="text-gray-600 mb-6">
-              戦略立案から実装、組織開発まで、一気通貫でサポートいたします。
-              まずはお気軽にご相談ください。
+              {t('business.ctaDescription')}
             </p>
             <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors shadow-lg hover:shadow-xl">
-              お問い合わせ
+              {t('business.ctaButton')}
             </button>
           </div>
         </div>

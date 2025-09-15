@@ -18,7 +18,11 @@
     "companyName": "CROSSTEM Inc.",
     "established": "February 11, 2025",
     "location": "Minami-ku, Kyoto, Japan",
-    "businessContent": "Strategic Consulting, Software Development, Technical Advisory, Human Resources & Organizational Development"
+    "businessContent": "Strategic Consulting, Software Development, Technical Advisory, Human Resources & Organizational Development",
+    "companyNameLabel": "Company Name",
+    "establishedLabel": "Established",
+    "locationLabel": "Location",
+    "businessContentLabel": "Business"
   },
   "principles": {
     "title": "Leadership Principles",
@@ -43,6 +47,10 @@
   "business": {
     "title": "Business Services",
     "description": "We provide professional services that support everything from strategy to implementation and organizational development.",
+    "mainContentLabel": "Main Services:",
+    "ctaTitle": "Providing Solutions Tailored to Your Business Challenges",
+    "ctaDescription": "From strategy planning to implementation and organizational development, we provide comprehensive support. Please feel free to contact us first.",
+    "ctaButton": "Contact Us",
     "strategy": {
       "title": "Strategic Consulting",
       "description": "We support everything from identifying business challenges to formulating business strategies leveraging technology and creating new businesses.",

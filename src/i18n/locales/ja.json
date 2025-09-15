@@ -18,7 +18,11 @@
     "companyName": "CROSSTEM Inc.",
     "established": "2025年2月11日",
     "location": "京都府京都市南区",
-    "businessContent": "戦略コンサルティング、ソフトウェア開発、技術アドバイザリー、人材・組織開発"
+    "businessContent": "戦略コンサルティング、ソフトウェア開発、技術アドバイザリー、人材・組織開発",
+    "companyNameLabel": "社名",
+    "establishedLabel": "設立",
+    "locationLabel": "拠点",
+    "businessContentLabel": "事業内容"
   },
   "principles": {
     "title": "Leadership Principles",
@@ -43,6 +47,10 @@
   "business": {
     "title": "事業紹介",
     "description": "戦略から実装、組織開発までを一気通貫で支援するプロフェッショナルサービスを提供します。",
+    "mainContentLabel": "主な提供内容:",
+    "ctaTitle": "お客様のビジネス課題に合わせたソリューションを提供",
+    "ctaDescription": "戦略立案から実装、組織開発まで、一気通貫でサポートいたします。まずはお気軽にご相談ください。",
+    "ctaButton": "お問い合わせ",
     "strategy": {
       "title": "戦略コンサルティング",
       "description": "ビジネス課題の解明から、技術を活用した事業戦略の策定、新規事業の創出までを支援します。",

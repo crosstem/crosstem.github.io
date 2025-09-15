@@ -32,7 +32,7 @@ export default function Header({ onSectionClick }: HeaderProps) {
           <div className="flex-shrink-0">
             {/* Use slightly darker blue for logo/title so it remains readable
                 when header overlays a dark hero image (white/transparent bg used). */}
-            <h1 className="text-xl font-bold text-blue-700">Crosstem</h1>
+            <h1 className="text-sm font-bold text-blue-700">Crosstem</h1>
           </div>
 
           {/* デスクトップナビゲーション */}
@@ -64,9 +64,9 @@ export default function Header({ onSectionClick }: HeaderProps) {
           </nav>
 
           {/* 言語切替とハンバーガーメニュー */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-2">
             {/* 言語切替 */}
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-1">
               <button
                 onClick={() => changeLanguage('ja')}
                 className={`px-2 py-1 text-sm rounded ${
@@ -92,11 +92,11 @@ export default function Header({ onSectionClick }: HeaderProps) {
             {/* ハンバーガーメニュー（モバイル） */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="md:hidden p-2 text-blue-700"
+              className="md:hidden p-1 text-blue-700"
               aria-label="Toggle menu"
             >
               <svg
-                className="w-6 h-6"
+                className="w-5 h-5"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -123,7 +123,7 @@ export default function Header({ onSectionClick }: HeaderProps) {
 
         {/* モバイルメニュー */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200">
+          <div className="md:hidden py-4 border-t border-gray-200 bg-white">
             <nav className="flex flex-col">
               <button
                 onClick={() => handleSectionClick('about')}

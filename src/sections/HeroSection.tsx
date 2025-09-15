@@ -24,7 +24,7 @@ export default function HeroSection({ onLearnMore }: HeroSectionProps) {
 
       {/* コンテンツ */}
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl sm:text-6xl font-bold mb-6 leading-tight drop-shadow-[0_6px_10px_rgba(0,0,0,0.6)]">
+        <h1 className="text-2xl sm:text-4xl font-bold mb-6 leading-tight drop-shadow-[0_6px_10px_rgba(0,0,0,0.6)]">
           {t('hero.title')}
         </h1>
         <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto opacity-95">
