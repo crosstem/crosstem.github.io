@@ -42,7 +42,31 @@
   },
   "news": {
     "title": "最新のお知らせ",
-    "readMore": "もっと読む"
+    "subtitle": "最新の取り組みやサービスのご案内",
+    "readMore": "もっと読む",
+    "ctaTitle": "最新情報をお届けします",
+    "ctaDescription": "CROSSTEMの最新サービスや技術トレンドに関する情報を定期的に発信しています",
+    "ctaButton": "すべてのニュースを見る",
+    "items": [
+      {
+        "date": "2025.02.11",
+        "category": "プレスリリース",
+        "title": "CROSSTEM Inc.設立のお知らせ",
+        "summary": "戦略から実装、組織開発まで一気通貫で支援するプロフェッショナルサービスを提供する企業として設立"
+      },
+      {
+        "date": "2025.02.15",
+        "category": "お知らせ",
+        "title": "AIスキリングプログラムの提供開始",
+        "summary": "企業向けカスタマイズ型AI人材育成プログラムの提供を開始しました"
+      },
+      {
+        "date": "2025.02.20",
+        "category": "サービス",
+        "title": "技術アドバイザリーサービス開始",
+        "summary": "CTO経験者による技術戦略支援とプロジェクト伴走サービスを開始"
+      }
+    ]
   },
   "business": {
     "title": "事業紹介",
@@ -54,7 +78,11 @@
     "strategy": {
       "title": "戦略コンサルティング",
       "description": "ビジネス課題の解明から、技術を活用した事業戦略の策定、新規事業の創出までを支援します。",
-      "items": ["事業開発支援", "DX戦略策定", "技術アセスメント"]
+      "items": [
+        "事業開発支援",
+        "DX戦略策定",
+        "技術アセスメント"
+      ]
     },
     "development": {
       "title": "ソフトウェア開発",
@@ -68,18 +96,68 @@
     "advisory": {
       "title": "技術アドバイザリー",
       "description": "特定の技術課題やプロジェクトに対して、専門的な知見を持つエキスパートが伴走支援します。",
-      "items": ["技術顧問", "プロジェクト支援", "専門領域アドバイス"]
+      "items": [
+        "技術顧問",
+        "プロジェクト支援",
+        "専門領域アドバイス"
+      ]
     },
     "organization": {
       "title": "人材・組織開発",
       "description": "企業の技術力向上と、自律的な開発組織の構築を支援します。",
-      "items": ["AIスキリング", "開発チーム育成", "技術セミナー・トレーニング"]
+      "items": [
+        "AIスキリング",
+        "開発チーム育成",
+        "技術セミナー・トレーニング"
+      ]
     }
   },
   "recruit": {
     "title": "採用情報",
     "description": "一緒に未来を創造する仲間を募集しています。",
-    "cta": "採用情報を見る"
+    "cta": "採用情報を見る",
+    "valuesTitle": "私たちの価値観",
+    "positionsTitle": "募集職種",
+    "detailsButton": "詳細を見る →",
+    "ctaTitle": "一緒に未来を創造しませんか？",
+    "ctaDescription": "CROSSTEMでは、技術と戦略で世界を変える仲間を募集しています。あなたのスキルと情熱を活かして、お客様の成功と自己成長を実現しましょう。",
+    "entryButton": "エントリーする",
+    "casualInterviewButton": "カジュアル面談を申し込む",
+    "positions": {
+      "strategicConsultant": {
+        "title": "ストラテジックコンサルタント",
+        "department": "コンサルティング",
+        "description": "DX戦略立案から事業開発まで、顧客のビジネス変革を支援"
+      },
+      "softwareEngineer": {
+        "title": "ソフトウェアエンジニア",
+        "department": "エンジニアリング",
+        "description": "AI、IoT、クラウドアプリケーションの設計・開発"
+      },
+      "technicalAdvisor": {
+        "title": "技術アドバイザー",
+        "department": "アドバイザリー",
+        "description": "特定の技術領域での専門知識を活かした顧客支援"
+      }
+    },
+    "locations": {
+      "kyotoRemote": "京都/リモート"
+    },
+    "employmentTypes": {
+      "fullTime": "正社員",
+      "contractor": "業務委託"
+    },
+    "values": {
+      "customerObsession": {
+        "description": "常にお客様を第一に考え、最高の価値を提供"
+      },
+      "ownership": {
+        "description": "自分がオーナーとして責任を持ってやり遂げる"
+      },
+      "simplifyScale": {
+        "description": "シンプルに、標準化して、スケールする"
+      }
+    }
   },
   "footer": {
     "company": "CROSSTEM Inc.",

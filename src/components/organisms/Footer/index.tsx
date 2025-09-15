@@ -13,7 +13,7 @@ export default function Footer() {
             </h3>
           </div>
           <div className="text-gray-300 text-sm">
-            \u00a9 2025 {t('footer.company')}. {t('footer.rights')}
+            © 2025 {t('footer.company')}. {t('footer.rights')}
           </div>
         </div>
       </div>

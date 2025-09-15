@@ -16,7 +16,9 @@ export default function BusinessSection() {
     {
       title: t('business.development.title'),
       description: t('business.development.description'),
-      items: t('business.development.items', { returnObjects: true }) as string[],
+      items: t('business.development.items', {
+        returnObjects: true,
+      }) as string[],
       image:
         'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       id: 2,
@@ -34,7 +36,9 @@ export default function BusinessSection() {
     {
       title: t('business.organization.title'),
       description: t('business.organization.description'),
-      items: t('business.organization.items', { returnObjects: true }) as string[],
+      items: t('business.organization.items', {
+        returnObjects: true,
+      }) as string[],
       image:
         'https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       id: 4,
@@ -113,9 +117,7 @@ export default function BusinessSection() {
             <h3 className="text-xl font-semibold text-gray-900 mb-4">
               {t('business.ctaTitle')}
             </h3>
-            <p className="text-gray-600 mb-6">
-              {t('business.ctaDescription')}
-            </p>
+            <p className="text-gray-600 mb-6">{t('business.ctaDescription')}</p>
             <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors shadow-lg hover:shadow-xl">
               {t('business.ctaButton')}
             </button>

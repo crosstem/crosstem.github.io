@@ -5,27 +5,27 @@ export default function RecruitSection() {
 
   const positions = [
     {
-      title: 'ストラテジックコンサルタント',
-      department: 'コンサルティング',
-      location: '京都/リモート',
-      type: '正社員',
-      description: 'DX戦略立案から事業開発まで、顧客のビジネス変革を支援',
+      title: t('recruit.positions.strategicConsultant.title'),
+      department: t('recruit.positions.strategicConsultant.department'),
+      location: t('recruit.locations.kyotoRemote'),
+      type: t('recruit.employmentTypes.fullTime'),
+      description: t('recruit.positions.strategicConsultant.description'),
       id: 1,
     },
     {
-      title: 'ソフトウェアエンジニア',
-      department: 'エンジニアリング',
-      location: '京都/リモート',
-      type: '正社員',
-      description: 'AI、IoT、クラウドアプリケーションの設計・開発',
+      title: t('recruit.positions.softwareEngineer.title'),
+      department: t('recruit.positions.softwareEngineer.department'),
+      location: t('recruit.locations.kyotoRemote'),
+      type: t('recruit.employmentTypes.fullTime'),
+      description: t('recruit.positions.softwareEngineer.description'),
       id: 2,
     },
     {
-      title: '技術アドバイザー',
-      department: 'アドバイザリー',
-      location: '京都/リモート',
-      type: '業務委託',
-      description: '特定の技術領域での専門知識を活かした顧客支援',
+      title: t('recruit.positions.technicalAdvisor.title'),
+      department: t('recruit.positions.technicalAdvisor.department'),
+      location: t('recruit.locations.kyotoRemote'),
+      type: t('recruit.employmentTypes.contractor'),
+      description: t('recruit.positions.technicalAdvisor.description'),
       id: 3,
     },
   ];
@@ -33,17 +33,17 @@ export default function RecruitSection() {
   const values = [
     {
       title: 'Customer Obsession',
-      description: '常にお客様を第一に考え、最高の価値を提供',
+      description: t('recruit.values.customerObsession.description'),
       icon: 'M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z',
     },
     {
       title: 'Ownership',
-      description: '自分がオーナーとして責任を持ってやり遂げる',
+      description: t('recruit.values.ownership.description'),
       icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
     },
     {
       title: 'Simplify & Scale',
-      description: 'シンプルに、標準化して、スケールする',
+      description: t('recruit.values.simplifyScale.description'),
       icon: 'M13 7h8m0 0v8m0-8l-8 8-4-4-6 6',
     },
   ];
@@ -63,7 +63,7 @@ export default function RecruitSection() {
         {/* 私たちの価値観 */}
         <div className="mb-16">
           <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">
-            私たちの価値観
+            {t('recruit.valuesTitle')}
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {values.map((value, index) => (
@@ -98,7 +98,7 @@ export default function RecruitSection() {
         {/* 募集職種 */}
         <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
           <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-            募集職種
+            {t('recruit.positionsTitle')}
           </h3>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {positions.map(position => (
@@ -126,8 +126,8 @@ export default function RecruitSection() {
                   </div>
                 </div>
                 <div className="flex justify-end">
-                  <button className="text-blue-600 hover:text-blue-800 font-medium transition-colors">
-                    詳細を見る →
+                  <button className="text-white hover:text-gray-300 font-medium transition-colors">
+                    {t('recruit.detailsButton')}
                   </button>
                 </div>
               </div>
@@ -138,18 +138,15 @@ export default function RecruitSection() {
         {/* CTA */}
         <div className="text-center bg-white rounded-lg p-8 shadow-sm">
           <h3 className="text-xl font-semibold text-gray-900 mb-4">
-            一緒に未来を創造しませんか？
+            {t('recruit.ctaTitle')}
           </h3>
-          <p className="text-gray-600 mb-6">
-            CROSSTEMでは、技術と戦略で世界を変える仲間を募集しています。
-            あなたのスキルと情熱を活かして、お客様の成功と自己成長を実現しましょう。
-          </p>
+          <p className="text-gray-600 mb-6">{t('recruit.ctaDescription')}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors shadow-lg hover:shadow-xl">
-              エントリーする
+              {t('recruit.entryButton')}
             </button>
-            <button className="border border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 rounded-lg font-semibold transition-colors">
-              カジュアル面談を申し込む
+            <button className="bg-gray-600 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors shadow-lg hover:shadow-xl">
+              {t('recruit.casualInterviewButton')}
             </button>
           </div>
         </div>
