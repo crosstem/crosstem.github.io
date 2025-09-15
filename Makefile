@@ -17,6 +17,9 @@ format-check: ## format check
 format: ## format code
 	pnpm format
 
+.PHONY: fix
+fix: format ## fix codes
+
 .PHONY: lint
 lint: ## lint
 	pnpm lint
