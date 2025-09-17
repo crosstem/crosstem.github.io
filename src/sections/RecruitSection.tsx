@@ -126,9 +126,14 @@ export default function RecruitSection() {
                   </div>
                 </div>
                 <div className="flex justify-end">
-                  <button className="text-white hover:text-gray-300 font-medium transition-colors">
+                  <a
+                    href="https://forms.gle/NtmyGzpN9nzSUoCb6"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white hover:text-gray-300 font-medium transition-colors"
+                  >
                     {t('recruit.detailsButton')}
-                  </button>
+                  </a>
                 </div>
               </div>
             ))}

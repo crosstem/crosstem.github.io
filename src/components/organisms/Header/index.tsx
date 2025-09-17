@@ -31,7 +31,7 @@ export default function Header({ onSectionClick }: HeaderProps) {
           {/* ロゴ */}
           <div className="flex-shrink-0">
             {/* Use white color for logo/title on black background */}
-            <h1 className="text-xs font-bold text-white">crosstem</h1>
+            <h1 className="text-xs font-bold text-white">CROSSTEM</h1>
           </div>
 
           {/* デスクトップナビゲーション */}
