@@ -14,8 +14,8 @@
   },
   "about": {
     "title": "About Us",
-    "description": "CROSSTEM Inc. provides professional services that support everything from strategy to implementation and organizational development.",
-    "companyName": "CROSSTEM Inc.",
+    "description": "CROSSTEM LAB provides professional services that support everything from strategy to implementation and organizational development.",
+    "companyName": "CROSSTEM LAB",
     "established": "February 11, 2025",
     "location": "Minami-ku, Kyoto, Japan",
     "businessContent": "Technical Consulting, Software Development, Technical Advisory, Human Resources & Organizational Development",
@@ -51,7 +51,7 @@
       {
         "date": "2025.02.11",
         "category": "Press Release",
-        "title": "CROSSTEM Inc. Establishment Announcement",
+        "title": "CROSSTEM LAB Establishment Announcement",
         "summary": "Established as a company providing professional services that support everything from strategy to implementation and organizational development"
       },
       {
@@ -160,7 +160,7 @@
     }
   },
   "footer": {
-    "company": "CROSSTEM Inc.",
+    "company": "CROSSTEM LAB",
     "rights": "All rights reserved."
   }
 }

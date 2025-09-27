@@ -14,8 +14,8 @@
   },
   "about": {
     "title": "会社情報",
-    "description": "CROSSTEM Inc.は、戦略から実装、組織開発までを一気通貫で支援するプロフェッショナルサービスを提供しています。",
-    "companyName": "CROSSTEM Inc.",
+    "description": "CROSSTEM LABは、戦略から実装、組織開発までを一気通貫で支援するプロフェッショナルサービスを提供しています。",
+    "companyName": "CROSSTEM LAB",
     "established": "2025年2月11日",
     "location": "京都府京都市南区",
     "businessContent": "テクニカルコンサルティング、ソフトウェア開発、技術アドバイザリー、人材・組織開発",
@@ -51,7 +51,7 @@
       {
         "date": "2025.02.11",
         "category": "プレスリリース",
-        "title": "CROSSTEM Inc.設立のお知らせ",
+        "title": "CROSSTEM LAB設立のお知らせ",
         "summary": "戦略から実装、組織開発まで一気通貫で支援するプロフェッショナルサービスを提供する企業として設立"
       },
       {
@@ -148,7 +148,7 @@
     }
   },
   "footer": {
-    "company": "CROSSTEM Inc.",
+    "company": "CROSSTEM LAB",
     "rights": "All rights reserved."
   }
 }
