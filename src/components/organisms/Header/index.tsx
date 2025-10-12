@@ -2,10 +2,14 @@ import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 
 interface HeaderProps {
-  onSectionClick: (section: string) => void;
+  onSectionClick?: (section: string) => void;
+  showNavigation?: boolean;
 }
 
-export default function Header({ onSectionClick }: HeaderProps) {
+export default function Header({
+  onSectionClick,
+  showNavigation = true,
+}: HeaderProps) {
   const { t, i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -14,7 +18,9 @@ export default function Header({ onSectionClick }: HeaderProps) {
   };
 
   const handleSectionClick = (section: string) => {
-    onSectionClick(section);
+    if (onSectionClick) {
+      onSectionClick(section);
+    }
     setIsMenuOpen(false);
   };
 
@@ -35,32 +41,34 @@ export default function Header({ onSectionClick }: HeaderProps) {
           </div>
 
           {/* デスクトップナビゲーション */}
-          <nav className="hidden md:flex space-x-8">
-            <button
-              onClick={() => handleSectionClick('about')}
-              className="text-gray-300 hover:text-white transition-colors px-2 py-2"
-            >
-              {t('nav.about')}
-            </button>
-            <button
-              onClick={() => handleSectionClick('news')}
-              className="text-gray-300 hover:text-white transition-colors"
-            >
-              {t('nav.news')}
-            </button>
-            <button
-              onClick={() => handleSectionClick('business')}
-              className="text-gray-300 hover:text-white transition-colors"
-            >
-              {t('nav.business')}
-            </button>
-            <button
-              onClick={() => handleSectionClick('recruit')}
-              className="text-gray-300 hover:text-white transition-colors"
-            >
-              {t('nav.recruit')}
-            </button>
-          </nav>
+          {showNavigation && (
+            <nav className="hidden md:flex space-x-8">
+              <button
+                onClick={() => handleSectionClick('about')}
+                className="text-gray-300 hover:text-white transition-colors px-2 py-2"
+              >
+                {t('nav.about')}
+              </button>
+              <button
+                onClick={() => handleSectionClick('news')}
+                className="text-gray-300 hover:text-white transition-colors"
+              >
+                {t('nav.news')}
+              </button>
+              <button
+                onClick={() => handleSectionClick('business')}
+                className="text-gray-300 hover:text-white transition-colors"
+              >
+                {t('nav.business')}
+              </button>
+              <button
+                onClick={() => handleSectionClick('recruit')}
+                className="text-gray-300 hover:text-white transition-colors"
+              >
+                {t('nav.recruit')}
+              </button>
+            </nav>
+          )}
 
           {/* 言語切替とハンバーガーメニュー */}
           <div className="flex items-center space-x-2">
@@ -89,39 +97,41 @@ export default function Header({ onSectionClick }: HeaderProps) {
             </div>
 
             {/* ハンバーガーメニュー（モバイル） */}
-            <button
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="md:hidden p-1 text-white"
-              aria-label="Toggle menu"
-            >
-              <svg
-                className="w-5 h-5"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
+            {showNavigation && (
+              <button
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                className="md:hidden p-1 text-white"
+                aria-label="Toggle menu"
               >
-                {isMenuOpen ? (
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                ) : (
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M4 6h16M4 12h16M4 18h16"
-                  />
-                )}
-              </svg>
-            </button>
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  {isMenuOpen ? (
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  ) : (
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  )}
+                </svg>
+              </button>
+            )}
           </div>
         </div>
 
         {/* モバイルメニュー */}
-        {isMenuOpen && (
+        {showNavigation && isMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-600 bg-black">
             <nav className="flex flex-col">
               <button
