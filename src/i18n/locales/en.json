@@ -159,8 +159,71 @@
       }
     }
   },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: October 12, 2025",
+    "intro": "CROSSTEM LAB (\"we\") is committed to protecting the personal information entrusted to us and enabling our clients to use our services with confidence. This policy explains how we manage personal information.",
+    "sections": [
+      {
+        "heading": "1. Information We Collect",
+        "body": [
+          "We collect names, email addresses, inquiry details, and other information submitted through our contact form.",
+          "We may obtain professional background information about business partners or job candidates when it is necessary to deliver our services."
+        ]
+      },
+      {
+        "heading": "2. How We Use Personal Information",
+        "body": [
+          "We use personal information to respond to inquiries, provide and improve our services, conduct recruitment activities, and communicate related updates.",
+          "When performing statistical analysis, we anonymize or aggregate the data so that individuals cannot be identified."
+        ]
+      },
+      {
+        "heading": "3. Safeguards",
+        "body": [
+          "We implement appropriate technical and organizational measures to prevent unauthorized access, loss, alteration, or disclosure of personal information.",
+          "When outsourcing processing to third parties, we select contractors carefully and supervise them appropriately."
+        ]
+      },
+      {
+        "heading": "4. Sharing with Third Parties",
+        "body": [
+          "We do not share personal information with third parties without prior consent, except as required by laws and regulations.",
+          "If we engage in joint use, we will clearly specify the purpose, the scope of joint users, and the party responsible for management."
+        ]
+      },
+      {
+        "heading": "5. Requests for Access and Correction",
+        "body": [
+          "Upon receiving requests to disclose, correct, suspend the use of, or delete personal information, we will respond without delay in accordance with applicable laws.",
+          "We may ask for identification documents to verify the requester when processing such requests."
+        ]
+      },
+      {
+        "heading": "6. Use of Cookies and Similar Technologies",
+        "body": [
+          "We may use cookies and similar technologies to understand website usage and improve our services.",
+          "Information obtained through cookies does not identify individuals, and you can disable cookies in your browser settings."
+        ]
+      },
+      {
+        "heading": "7. Compliance and Continuous Improvement",
+        "body": [
+          "We comply with applicable laws, regulations, and guidelines regarding the handling of personal information.",
+          "We review this policy as needed and strive for continuous improvement of our privacy management."
+        ]
+      }
+    ],
+    "contactText": "For questions or requests regarding personal information, please contact us via the form below.",
+    "contactLinkLabel": "Contact Form",
+    "formUrl": "https://forms.gle/NtmyGzpN9nzSUoCb6",
+    "backToHome": "Return to Home"
+  },
   "footer": {
     "company": "CROSSTEM LAB",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "contact": "Contact Form",
+    "contactFormUrl": "https://forms.gle/NtmyGzpN9nzSUoCb6"
   }
 }
