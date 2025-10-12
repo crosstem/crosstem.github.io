@@ -65,7 +65,7 @@ export default function PrivacyPolicyPage() {
               </a>
             </p>
             <button
-              className="inline-flex items-center text-sm px-4 py-2 rounded border border-gray-400 text-gray-700 hover:bg-gray-100"
+              className="inline-flex items-center text-sm px-4 py-2 rounded border border-transparent bg-gray-900 text-white hover:bg-gray-800"
               onClick={handleBackToHome}
               type="button"
             >
